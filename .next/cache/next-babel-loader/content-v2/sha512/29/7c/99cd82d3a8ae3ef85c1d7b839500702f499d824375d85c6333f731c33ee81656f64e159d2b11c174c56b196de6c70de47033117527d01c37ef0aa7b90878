@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { session } from 'react-storefront-connector';\nexport default async function (req, res) {\n  res.json(await session(req, res));\n}","map":null,"metadata":{},"sourceType":"module"}

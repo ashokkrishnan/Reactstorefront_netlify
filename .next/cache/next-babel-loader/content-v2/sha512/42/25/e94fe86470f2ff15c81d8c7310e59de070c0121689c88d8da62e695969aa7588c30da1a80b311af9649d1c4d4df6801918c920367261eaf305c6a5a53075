@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { productMedia } from 'react-storefront-connector';\nexport default async function (req, res) {\n  const {\n    productId,\n    color\n  } = req.query;\n  res.json(await productMedia({\n    id: productId,\n    color\n  }, req, res));\n}","map":null,"metadata":{},"sourceType":"module"}

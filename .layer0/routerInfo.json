@@ -1,0 +1,61 @@
+{
+   "location": "routes.js",
+   "info": [
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/api/p/:productId"
+         },
+         "line": 16,
+         "column": 3
+      },
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/p/:productId"
+         },
+         "line": 15,
+         "column": 3
+      },
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/api/s/:categorySlug*"
+         },
+         "line": 14,
+         "column": 3
+      },
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/s/:categorySlug*"
+         },
+         "line": 13,
+         "column": 3
+      },
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/api"
+         },
+         "line": 12,
+         "column": 3
+      },
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/"
+         },
+         "line": 11,
+         "column": 3
+      },
+      {
+         "criteria": {
+            "method": "match",
+            "path": "/service-worker.js"
+         },
+         "line": 8,
+         "column": 3
+      }
+   ]
+}

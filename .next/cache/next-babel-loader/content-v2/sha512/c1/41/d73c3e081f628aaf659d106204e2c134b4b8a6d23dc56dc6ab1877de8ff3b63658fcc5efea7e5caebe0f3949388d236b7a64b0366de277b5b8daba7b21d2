@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { search } from 'react-storefront-connector';\nexport default async function sp(req, res) {\n  return res.json(await search(req.query, req, res));\n}","map":null,"metadata":{},"sourceType":"module"}

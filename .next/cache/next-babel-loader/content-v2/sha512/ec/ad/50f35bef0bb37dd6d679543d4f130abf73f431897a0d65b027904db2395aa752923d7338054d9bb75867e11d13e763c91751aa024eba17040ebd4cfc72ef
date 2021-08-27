@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { removeCartItem } from 'react-storefront-connector';\nexport default async function handler(req, res) {\n  const {\n    item\n  } = req.body || {};\n  res.json(await removeCartItem(item, req, res));\n}\nexport const config = {\n  api: {\n    bodyParser: true\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Metrics } from '@layer0/rum';\n\nif (false) {\n  new Metrics().collect();\n}","map":null,"metadata":{},"sourceType":"module"}

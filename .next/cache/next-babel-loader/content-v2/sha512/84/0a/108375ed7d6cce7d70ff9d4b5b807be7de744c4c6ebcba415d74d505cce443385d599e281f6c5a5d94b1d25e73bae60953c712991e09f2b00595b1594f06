@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { subcategory } from 'react-storefront-connector';\nexport default async function plp(req, res) {\n  const {\n    q,\n    categorySlug: slug,\n    page,\n    filters,\n    sort\n  } = req.query;\n  res.json(await subcategory({\n    q,\n    slug,\n    page,\n    filters,\n    sort\n  }, req, res));\n}","map":null,"metadata":{},"sourceType":"module"}

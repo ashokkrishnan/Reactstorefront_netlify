@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { productSuggestions } from 'react-storefront-connector';\nexport default async function (req, res) {\n  const {\n    productId\n  } = req.query;\n  res.json(await productSuggestions(productId, req, res));\n}","map":null,"metadata":{},"sourceType":"module"}

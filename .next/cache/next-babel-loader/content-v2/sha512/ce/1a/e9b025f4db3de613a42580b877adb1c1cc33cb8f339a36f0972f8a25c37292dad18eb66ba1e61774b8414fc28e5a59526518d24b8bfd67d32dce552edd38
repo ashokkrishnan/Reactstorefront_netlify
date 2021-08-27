@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { signIn } from 'react-storefront-connector';\nexport default function (req, res) {\n  const {\n    email,\n    password\n  } = JSON.parse(req.body);\n  return signIn(email, password, req, res);\n}\nexport const config = {\n  api: {\n    bodyParser: true\n  }\n};","map":null,"metadata":{},"sourceType":"module"}

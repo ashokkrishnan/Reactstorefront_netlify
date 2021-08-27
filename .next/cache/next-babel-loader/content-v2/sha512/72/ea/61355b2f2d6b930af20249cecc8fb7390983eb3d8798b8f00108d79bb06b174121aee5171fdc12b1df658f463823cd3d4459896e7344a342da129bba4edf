@@ -1,0 +1,1 @@
+{"ast":null,"code":"import listRoutes from 'react-storefront/server/listRoutes';\nexport default async function routes(req, res) {\n  res.setHeader('cache-control', 'max-age=' + 60 * 60 * 24 * 365);\n  res.json(listRoutes());\n}","map":null,"metadata":{},"sourceType":"module"}

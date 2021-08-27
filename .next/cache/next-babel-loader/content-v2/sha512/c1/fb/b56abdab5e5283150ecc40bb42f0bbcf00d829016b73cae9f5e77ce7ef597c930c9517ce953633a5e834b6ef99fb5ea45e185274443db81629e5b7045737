@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { skipWaiting, clientsClaim } from 'workbox-core';\nimport { precacheAndRoute } from 'workbox-precaching';\nimport { Prefetcher } from '@layer0/prefetch/sw';\nskipWaiting();\nclientsClaim();\nprecacheAndRoute(self.__WB_MANIFEST || []);\nnew Prefetcher().route();","map":null,"metadata":{},"sourceType":"module"}

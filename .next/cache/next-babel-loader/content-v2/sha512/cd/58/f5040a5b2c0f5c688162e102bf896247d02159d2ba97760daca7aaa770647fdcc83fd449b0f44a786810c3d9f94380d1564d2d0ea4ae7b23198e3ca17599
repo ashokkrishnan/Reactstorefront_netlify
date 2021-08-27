@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { signOut } from 'react-storefront-connector';\nexport default function (req, res) {\n  return signOut(req, res);\n}","map":null,"metadata":{},"sourceType":"module"}

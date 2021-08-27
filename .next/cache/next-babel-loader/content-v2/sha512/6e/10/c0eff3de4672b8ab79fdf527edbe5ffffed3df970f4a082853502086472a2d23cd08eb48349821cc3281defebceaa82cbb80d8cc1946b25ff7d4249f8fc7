@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function reportError({\n  error\n}) {\n  console.log('[reportError]', error);\n}","map":null,"metadata":{},"sourceType":"module"}

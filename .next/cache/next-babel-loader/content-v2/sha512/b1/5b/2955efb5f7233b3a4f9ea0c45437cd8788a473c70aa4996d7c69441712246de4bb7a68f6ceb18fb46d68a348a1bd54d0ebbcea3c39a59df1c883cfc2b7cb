@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { product } from 'react-storefront-connector';\nexport default async function pdp(req, res) {\n  const {\n    productId\n  } = req.query;\n  return res.json(await product({\n    id: productId\n  }, req, res));\n}","map":null,"metadata":{},"sourceType":"module"}

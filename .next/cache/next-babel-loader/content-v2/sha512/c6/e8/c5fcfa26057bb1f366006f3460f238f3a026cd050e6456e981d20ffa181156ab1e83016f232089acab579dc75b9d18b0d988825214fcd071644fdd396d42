@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { signUp } from 'react-storefront-connector';\nexport default function (req, res) {\n  const data = typeof req.body === 'string' ? JSON.parse(req.body) : req.body;\n  return signUp(data, req, res);\n}\nexport const config = {\n  api: {\n    bodyParser: true\n  }\n};","map":null,"metadata":{},"sourceType":"module"}
